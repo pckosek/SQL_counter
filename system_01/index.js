@@ -44,7 +44,6 @@ app.get('/', function(req,res){
         res.render('page_counter');
     }) 
     
-    res.render('page_counter')
 })
 
 
