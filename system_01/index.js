@@ -1,20 +1,10 @@
 #!/usr/bin/nodejs
 
-// initialize express and app class object
-var express = require('express')
-var app = express();
-
-// initialize handlebars templating engine
-var hbs = require('hbs')
-app.set('view engine', 'hbs')
-
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
 
 var hbs = require('hbs')
-
-
 app.set('view engine', 'hbs');
 
 
