@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Student Page</title>
+</head>
+<body>
+	<h1>Welcome to the page</h1>
+
+	<div>
+	    {{#each student_data}}
+		<p>Name: {{this.full_name}}  - GPA: {{this.gpa}}</p>
+	    {{/each}}
+	</div>
+</body>
+</html>
